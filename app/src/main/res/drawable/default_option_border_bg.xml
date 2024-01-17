@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <!-- The stroke tag modifies the edges of a drawable with the solid tag
+    affecting its body and the corners tag affecting the edges with a 5dp radius
+    -->
+    <stroke
+        android:width="1dp"
+        android:color="#E8E8E8"
+        />
+    <solid android:color="@android:color/white" />
+    <corners android:radius="8dp" />
+</shape>
